@@ -214,7 +214,7 @@
         const apolloClient = new Apollo.lib.ApolloClient({
 
             networkInterface = Apollo.lib.createNetworkInterface({
-                uri: 'https://docs.github.com/en/graphql',
+                uri: 'https://docs.github.com/en/graphql/overview/explorer',
                 transportBatching: true,
             }),
 
@@ -232,6 +232,7 @@
                 posts {
                     id 
                     banner
+                    profil-section
                 }
             } `
 
