@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@apollo/client": "^3.4.16",
+    "apollo-server": "^3.5.0",
     "graphql": "^15.7.2",
     "yarn": "^1.22.17"
   }
