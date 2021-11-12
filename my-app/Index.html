@@ -2,284 +2,293 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
-    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="./style.css">
+  <title>Document</title>
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
 </head>
 
 <body>
-    <!-- Include the library in the page -->
-    <script src="https://unpkg.com/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/apollo-client-browser@0.0.5"></script>
-    <script src="https://unpkg.com/vue-apollo@2.1.0-beta.18"></script>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
-    <script type="text/babel" src="React.jsx"></script>
-
+  <!-- Include the library in the page -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/apollo-client-browser@0.0.5"></script>
+  <script src="https://unpkg.com/vue-apollo@2.1.0-beta.18"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.js"></script>
+  <script type="text/babel" src="React.jsx"></script>
+  <Header>
     <div id="app">
 
-        <div class="banner">
-            <div class="logo">
-                <img src="sourcerer_logo.png" alt="error">
+      <div class="banner">
+        <div class="logo">
+          <img src="sourcerer_logo.png" alt="error">
+        </div>
+        <div class="wrapper">
+          <div class="enter">
+            <input type="text" placeholder="Search">
+            <div class="img-container">
+              <!--<img src="https://sourcerer.io/icons/search.svg" alt="error">-->
+
             </div>
-            <div class="wrapper">
-                <div class="enter">
-                    <input type="text" placeholder="Search">
-                    <div class="img-container">
-                        <img src="https://sourcerer.io/icons/search.svg" alt="error">
+
+
+          </div>
+        </div>
+
+        <div class="links">
+          <p>JOBS / <span style="text-decoration: underline;">BKUTLAR </span> </p>
+        </div>
+
+
+      </div>
+      <div class="profil-section">
+
+        <div class="summary">
+          <div class="layout">
+            <div class="green-background">
+              <div class="profil-narrowed">
+                <div class="edit-mode-wrapper">
+                  <div class="edit-mode-header">
+                    <div class="left">
+                      <div class="label">
+                        <p>Share your profile on:
+                          <br>
+                          <a style="text-decoration: underline;">LinkedIn</a>
+                          <a style="text-decoration: underline;">Get Html</a>
+                          <a style="text-decoration: underline;">Twitter</a>
+                          <a style="text-decoration: underline;">Facebook</a>
+                        </p>
+                        <div class="section-header">
+
+                          <div class="caption">
+                            <div class="data">
+                              <div class="main">
+                                <h2>Brayan Kutlar<h2>
+                                    <span>Craftsman at Mhirba Paris</span>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stats">
+            <div class="edit-avatar">
+
+              <div class="avatar-plate">
+
+                <div class="img-holder">
+                  <div class="halo-avatar">
+                    <div class="inner">
+                      <p>BKutlar</p>
+                      <img src="ace.png" alt="error">
+
+                      &nbsp; &nbsp; <span href="/brayan/followers">Followers</span> &nbsp; &nbsp;
+                      <span href="/brayan/following">Following</span> &nbsp; &nbsp; <span
+                        href="/brayan/refresh">Refresh</span>
+                      <span> Lines of code </span> &nbsp; &nbsp; <span>Repos</span> &nbsp; &nbsp;
+                      <span>Commits</span>
 
                     </div>
+                  </div>
+                </div>
 
+              </div>
+
+            </div>
+            <div class="but-avatar">
+              <div class="stat-plate">
+                <div class="header">
+                  <div class="caption">
+
+                  </div>
 
                 </div>
+
+              </div>
             </div>
 
-            <div class="links">
-                <p>JOBS / <span style="text-decoration: underline;">BKUTLAR </span> </p>
+            <div class="follow-btn">
+              <div class="refresh-dropdown">
+                <div class="popup-menu">
+                  <div class="btn-green">
+
+                  </div>
+                </div>
+              </div>
             </div>
+
+          </div>
+
 
 
         </div>
-        <div class="profil-section">
 
-            <div class="summary">
-                <div class="layout">
-                    <div class="green-background">
-                        <div class="profil-narrowed">
-                            <div class="edit-mode-wrapper">
-                                <div class="edit-mode-header">
-                                    <div class="left">
-                                        <div class="label">
-                                            <p>Share your profile on:
-                                                <br>
-                                                <a style="text-decoration: underline;">LinkedIn</a>
-                                                <a style="text-decoration: underline;">Get Html</a>
-                                                <a style="text-decoration: underline;">Twitter</a>
-                                                <a style="text-decoration: underline;">Facebook</a>
-                                            </p>
-                                            <div class="section-header">
-
-                                                <div class="caption">
-                                                    <div class="data">
-                                                        <div class="main">
-                                                            <h2>Brayan Kutlar<h2>
-                                                                    <span>Craftsman at Mhirba Paris</span>
-
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="stats">
-                    <div class="edit-avatar">
-
-                        <div class="avatar-plate">
-
-                            <div class="img-holder">
-                                <div class="halo-avatar">
-                                    <div class="inner">
-                                        <p>BKutlar</p>
-                                        <img src="ace.png" alt="error">
-
-                                        &nbsp; &nbsp; <span href="/brayan/followers">Followers</span> &nbsp; &nbsp;
-                                        <span href="/brayan/following">Following</span> &nbsp; &nbsp; <span
-                                            href="/brayan/refresh">Refresh</span>
-                                        <span> Lines of code </span> &nbsp; &nbsp; <span>Repos</span> &nbsp; &nbsp;
-                                        <span>Commits</span>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="but-avatar">
-                        <div class="stat-plate">
-                            <div class="header">
-                                <div class="caption">
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="follow-btn">
-                        <div class="refresh-dropdown">
-                            <div class="popup-menu">
-                                <div class="btn-green">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
+        <div class="layout2">
+          <div class="Section-Header">
+            <div class="numeration">
+              <h2>2</h>
 
             </div>
 
-            <div class="layout2">
-                <div class="Section-Header">
-                    <div class="numeration">
-                        <h2>2</h>
+          </div>
+          <div class="Caption">
+            <h1> Overview </h1>
+          </div>
+          <div class="placeholder">
+            <div class="advice">
+              <p>Visually see your technology progression</p>
 
-                    </div>
-
-                </div>
-                <div class="Caption">
-                    <h1> Overview </h1>
-                </div>
-                <div class="placeholder">
-                    <div class="advice">
-                        <p>Visually see your technology progression</p>
-
-                    </div>
-                    <div class="link">
-                        <link> Add your repositories today </link>
-                    </div>
-                </div>
             </div>
-
-            <div class="layout3">
-                <div class="Section-Header3">
-                    <div class="numeration3">
-                        <h2>3</h>
-
-                    </div>
-
-                </div>
-                <div class="Caption3">
-                    <h1> Languages </h1>
-                </div>
-                <div class="placeholder3">
-                    <div class="advice3">
-                        <p>Visually see your technology progression</p>
-
-                    </div>
-                    <div class="link3">
-                        <link> Add your repositories today </link>
-                    </div>
-                </div>
+            <div class="link">
+              <link> Add your repositories today </link>
             </div>
-            <div class="layout5">
-                <div class="Section-Header5">
-                    <div class="numeration5">
-                        <h2>4</h>
+          </div>
+        </div>
 
-                    </div>
-
-                </div>
-                <div class="Caption5">
-                    <h1> Fun facts </h1>
-                </div>
-
-                <div class="placeholder5">
-                    <div class="advice5">
-                        <p>Visually see your technology progression</p>
-
-                    </div>
-                    <div class="link5">
-                        <link> Add your repositories today </link>
-                    </div>
-                </div>
-
-
-                <div class="layout6">
-                    <div class="Section-Header6">
-                        <div class="numeration6">
-                            <h2>5</h>
-
-                        </div>
-
-                    </div>
-                    <div class="Caption6">
-                        <h1> Repositories </h1>
-                    </div>
-
-                    <div class="placeholder6">
-                        <div class="advice6">
-                            <p>Visually see your technology progression</p>
-
-                        </div>
-                        <div class="link6">
-                            <link> Add your repositories today </link>
-                        </div>
-                    </div>
-
-
-
-                </div>
+        <div class="layout3">
+          <div class="Section-Header3">
+            <div class="numeration3">
+              <h2>3</h>
 
             </div>
 
+          </div>
+          <div class="Caption3">
+            <h1> Languages </h1>
+          </div>
+          <div class="placeholder3">
+            <div class="advice3">
+              <p>Visually see your technology progression</p>
+
+            </div>
+            <div class="link3">
+              <link> Add your repositories today </link>
+            </div>
+          </div>
+        </div>
+        <div class="layout5">
+          <div class="Section-Header5">
+            <div class="numeration5">
+              <h2>4</h>
+
+            </div>
+
+          </div>
+          <div class="Caption5">
+            <h1> Fun facts </h1>
+          </div>
+
+          <div class="placeholder5">
+            <div class="advice5">
+              <p>Visually see your technology progression</p>
+
+            </div>
+            <div class="link5">
+              <link> Add your repositories today </link>
+            </div>
+          </div>
+
+
+          <div class="layout6">
+            <div class="Section-Header6">
+              <div class="numeration6">
+                <h2>5</h>
+
+              </div>
+
+            </div>
+            <div class="Caption6">
+              <h1> Repositories </h1>
+            </div>
+
+            <div class="placeholder6">
+              <div class="advice6">
+                <p>Visually see your technology progression</p>
+
+              </div>
+              <div class="link6">
+                <link> Add your repositories today </link>
+              </div>
+            </div>
+
+
+
+          </div>
 
         </div>
+
+
+      </div>
 
     </div>
 
 
 
-   <script>
+    <script>
 
-        console.clear()
-        Vue.use(VueApollo)
-        const apolloClient = new Apollo.lib.ApolloClient({
+      console.clear()
+      Vue.use(VueApollo)
+      const apolloClient = new Apollo.lib.ApolloClient({
 
-            networkInterface = Apollo.lib.createNetworkInterface({
-                uri: 'https://docs.github.com/en/graphql/overview/explorer',
-                transportBatching: true,
-            }),
+        networkInterface: Apollo.lib.createNetworkInterface({
+          uri: 'https://docs.github.com/en/graphql/overview/explorer',
+          transportBatching: true,
 
-            connectToDevTools: true,
+        }),
+
+        connectToDevTools: true,
 
 
-        })
+      })
 
-        const apolloProvider = new VueApollo.ApolloProvider({
-            default: apolloClient,
-        })
+      const httpLink = new HttpLink({
+    uri: GITHUB_BASE_URL,
+    headers: {
+        Authorization: "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" 
+   },
+});
+    
+      const apolloProvider = new VueApollo.ApolloProvider({
+        defaultClient: apolloClient,
+      })
 
-        const POSTS_QUERY = Apollo.gql`
+      const POSTS_QUERY = Apollo.gql`
             {
                 posts {
                     id 
-                    banner
-                    profil-section
+                    class
+                    
                 }
             } `
 
-        const app = new Vue({
+      const app = new Vue({
 
-            // CSS selector of the root Dom element
-            el: '#app',
-            data: {
-                posts: [],
-            },
-            // Apollo GraphQL
-            apolloProvider,
-            apollo: {
-                posts: POSTS_QUERY,
-            },
-        })
+        // CSS selector of the root Dom element
+        el: '#app',
+        data: {
+          posts: [],
+        },
+        // Apollo GraphQL
+        apolloProvider,
+        apollo: {
+          posts: POSTS_QUERY,
+        },
+      })
 
-        console.log(app); 
+      console.log(app); 
     </script>
-  
+
+  </Header>
 
 </body>
 
