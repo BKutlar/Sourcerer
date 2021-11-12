@@ -14,185 +14,188 @@
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/apollo-client-browser@0.0.5"></script>
     <script src="https://unpkg.com/vue-apollo@2.1.0-beta.18"></script>
-    <header>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script type="text/babel" src="React.jsx"></script>
 
-        <div id="app">
-            <div class="banner">
-                <div class="logo">
-                    <img src="sourcerer_logo.png" alt="error">
-                </div>
-                <div class="wrapper">
-                    <div class="enter">
-                        <input type="text" placeholder="Search">
-                        <div class="img-container">
-                            <img src="https://sourcerer.io/icons/search.svg" alt="error">
+    <div id="app">
 
-                        </div>
-
+        <div class="banner">
+            <div class="logo">
+                <img src="sourcerer_logo.png" alt="error">
+            </div>
+            <div class="wrapper">
+                <div class="enter">
+                    <input type="text" placeholder="Search">
+                    <div class="img-container">
+                        <img src="https://sourcerer.io/icons/search.svg" alt="error">
 
                     </div>
+
+
                 </div>
-
-                <div class="links">
-                    <p>JOBS / <span style="text-decoration: underline;">BKUTLAR </span> </p>
-                </div>
-
-
             </div>
-            <div class="profil-section">
 
-                <div class="summary">
-                    <div class="layout">
-                        <div class="green-background">
-                            <div class="profil-narrowed">
-                                <div class="edit-mode-wrapper">
-                                    <div class="edit-mode-header">
-                                        <div class="left">
-                                            <div class="label">
-                                                <p>Share your profile on:
-                                                    <br>
-                                                    <a style="text-decoration: underline;">LinkedIn</a>
-                                                    <a style="text-decoration: underline;">Get Html</a>
-                                                    <a style="text-decoration: underline;">Twitter</a>
-                                                    <a style="text-decoration: underline;">Facebook</a>
-                                                </p>
-                                                <div class="section-header">
-
-                                                    <div class="caption">
-                                                        <div class="data">
-                                                            <div class="main">
-                                                                <h2>Brayan Kutlar<h2>
-                                                                        <span>Craftsman at Mhirba Paris</span>
+            <div class="links">
+                <p>JOBS / <span style="text-decoration: underline;">BKUTLAR </span> </p>
+            </div>
 
 
-                                                            </div>
+        </div>
+        <div class="profil-section">
+
+            <div class="summary">
+                <div class="layout">
+                    <div class="green-background">
+                        <div class="profil-narrowed">
+                            <div class="edit-mode-wrapper">
+                                <div class="edit-mode-header">
+                                    <div class="left">
+                                        <div class="label">
+                                            <p>Share your profile on:
+                                                <br>
+                                                <a style="text-decoration: underline;">LinkedIn</a>
+                                                <a style="text-decoration: underline;">Get Html</a>
+                                                <a style="text-decoration: underline;">Twitter</a>
+                                                <a style="text-decoration: underline;">Facebook</a>
+                                            </p>
+                                            <div class="section-header">
+
+                                                <div class="caption">
+                                                    <div class="data">
+                                                        <div class="main">
+                                                            <h2>Brayan Kutlar<h2>
+                                                                    <span>Craftsman at Mhirba Paris</span>
+
+
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="stats">
-                        <div class="edit-avatar">
-
-                            <div class="avatar-plate">
-
-                                <div class="img-holder">
-                                    <div class="halo-avatar">
-                                        <div class="inner">
-                                            <p>BKutlar</p>
-                                            <img src="ace.png" alt="error">
-
-                                            &nbsp; &nbsp; <span href="/brayan/followers">Followers</span> &nbsp; &nbsp;
-                                            <span href="/brayan/following">Following</span> &nbsp; &nbsp; <span
-                                                href="/brayan/refresh">Refresh</span>
-                                            <span> Lines of code </span> &nbsp; &nbsp; <span>Repos</span> &nbsp; &nbsp;
-                                            <span>Commits</span>
 
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="edit-avatar">
 
+                        <div class="avatar-plate">
+
+                            <div class="img-holder">
+                                <div class="halo-avatar">
+                                    <div class="inner">
+                                        <p>BKutlar</p>
+                                        <img src="ace.png" alt="error">
+
+                                        &nbsp; &nbsp; <span href="/brayan/followers">Followers</span> &nbsp; &nbsp;
+                                        <span href="/brayan/following">Following</span> &nbsp; &nbsp; <span
+                                            href="/brayan/refresh">Refresh</span>
+                                        <span> Lines of code </span> &nbsp; &nbsp; <span>Repos</span> &nbsp; &nbsp;
+                                        <span>Commits</span>
+
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
-                        <div class="but-avatar">
-                            <div class="stat-plate">
-                                <div class="header">
-                                    <div class="caption">
 
-                                    </div>
+                    </div>
+                    <div class="but-avatar">
+                        <div class="stat-plate">
+                            <div class="header">
+                                <div class="caption">
 
                                 </div>
 
                             </div>
+
                         </div>
+                    </div>
 
-                        <div class="follow-btn">
-                            <div class="refresh-dropdown">
-                                <div class="popup-menu">
-                                    <div class="btn-green">
+                    <div class="follow-btn">
+                        <div class="refresh-dropdown">
+                            <div class="popup-menu">
+                                <div class="btn-green">
 
-                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
 
                 </div>
 
-                <div class="layout2">
-                    <div class="Section-Header">
-                        <div class="numeration">
-                            <h2>2</h>
 
-                        </div>
+
+            </div>
+
+            <div class="layout2">
+                <div class="Section-Header">
+                    <div class="numeration">
+                        <h2>2</h>
 
                     </div>
-                    <div class="Caption">
-                        <h1> Overview </h1>
-                    </div>
-                    <div class="placeholder">
-                        <div class="advice">
-                            <p>Visually see your technology progression</p>
 
-                        </div>
-                        <div class="link">
-                            <link> Add your repositories today </link>
-                        </div>
+                </div>
+                <div class="Caption">
+                    <h1> Overview </h1>
+                </div>
+                <div class="placeholder">
+                    <div class="advice">
+                        <p>Visually see your technology progression</p>
+
+                    </div>
+                    <div class="link">
+                        <link> Add your repositories today </link>
                     </div>
                 </div>
+            </div>
 
-                <div class="layout3">
-                    <div class="Section-Header3">
-                        <div class="numeration3">
-                            <h2>3</h>
-
-                        </div>
+            <div class="layout3">
+                <div class="Section-Header3">
+                    <div class="numeration3">
+                        <h2>3</h>
 
                     </div>
-                    <div class="Caption3">
-                        <h1> Languages </h1>
-                    </div>
-                    <div class="placeholder3">
-                        <div class="advice3">
-                            <p>Visually see your technology progression</p>
 
-                        </div>
-                        <div class="link3">
-                            <link> Add your repositories today </link>
-                        </div>
+                </div>
+                <div class="Caption3">
+                    <h1> Languages </h1>
+                </div>
+                <div class="placeholder3">
+                    <div class="advice3">
+                        <p>Visually see your technology progression</p>
+
+                    </div>
+                    <div class="link3">
+                        <link> Add your repositories today </link>
                     </div>
                 </div>
-                <div class="layout5">
-                    <div class="Section-Header5">
-                        <div class="numeration5">
-                            <h2>4</h>
-
-                        </div>
+            </div>
+            <div class="layout5">
+                <div class="Section-Header5">
+                    <div class="numeration5">
+                        <h2>4</h>
 
                     </div>
-                    <div class="Caption5">
-                        <h1> Fun facts </h1>
-                    </div>
 
-                    <div class="placeholder5">
-                        <div class="advice5">
-                            <p>Visually see your technology progression</p>
+                </div>
+                <div class="Caption5">
+                    <h1> Fun facts </h1>
+                </div>
 
-                        </div>
-                        <div class="link5">
-                            <link> Add your repositories today </link>
-                        </div>
+                <div class="placeholder5">
+                    <div class="advice5">
+                        <p>Visually see your technology progression</p>
+
                     </div>
+                    <div class="link5">
+                        <link> Add your repositories today </link>
+                    </div>
+                </div>
 
 
                 <div class="layout6">
@@ -217,7 +220,7 @@
                         </div>
                     </div>
 
-                    
+
 
                 </div>
 
@@ -229,7 +232,6 @@
     </div>
 
 
-    </header>
 
     <script>
 
