@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  font-family: Roboto Mono, Roboto, Monospace;
+
+}
+
+.banner  
+{
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  position: relative;
+  height: 50%;
+
+
+}

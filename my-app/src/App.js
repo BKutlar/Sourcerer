@@ -3,22 +3,26 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <div class="banner">
+      <div class="logo">
+                <img src="sourcerer_logo.png" alt="error"></img>
+            </div>
+            <div class="wrapper">
+                <div class="enter">
+                    <input type="text" placeholder="Search">
+                    <div class="img-container">
+                        <img src="https://sourcerer.io/icons/search.svg" alt="error"></img>
+
+                    </div>
+                    </input>
+                </div>
+                
+                </div>
+
+            
+          </div>
+    
   );
 }
 
